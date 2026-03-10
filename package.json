@@ -2,20 +2,14 @@
   "name": "contact-form-tests",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "playwright:install": "npx playwright install chromium"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@playwright/test": "^1.58.2"
   }
-  
-  "scripts": {
-    "test": "npx playwright test",
-    "playwright:install": "npx playwright install chromium"
-}
 }
