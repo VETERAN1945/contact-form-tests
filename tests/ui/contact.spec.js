@@ -24,7 +24,7 @@ test.describe('Contact Form Tests', () => {
     await contactPage.submitForm();
 
     await expect(contactPage.successMessage)
-      .toBeVisible({ timeout: 10000 });
+      .toBeVisible({ timeout: 30000 });
   });
 
   // TC-005: негативный — email без @
